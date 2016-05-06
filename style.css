@@ -1,5 +1,32 @@
-#fundacja {background-image: url(logo.jpg);
-           background-size: 100%;
+@media (max-width: 767px) {
+    #fundacja {
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #fundacja {
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #fundacja {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #fundacja {
+        height: 900px;
+    }
+}
+
+#fundacja {
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #aktualnosci {
@@ -21,5 +48,5 @@
 }
 
 #stopka {
-        background-color: #f0f0f0;
+    background-color: #f0f0f0;
 }
