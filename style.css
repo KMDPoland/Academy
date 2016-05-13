@@ -21,13 +21,18 @@
         height: 900px;
     }
 }
-
+.nav{
+    background-color: #fff;
+    
+}
 #fundacja {
     background-image: url(logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    
 }
+
 @media (max-width: 767px) {
     #aktualnosci {
         height: 250px;
@@ -58,7 +63,14 @@
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+div .row{
+    margin-top: 60px;
+}
+div .row h1{
+    font-size: 65px;
+    text-align: center;
+    color: #0873b9;
+}
 #ludzie {
 }
 
@@ -72,8 +84,23 @@
 }
 
 #partnerzy {
+   
 }
-
+.jumbotron{
+    height: 600px;
+    background-size: cover;
+    background-image: url("zawodnik.jpg");
+    align-items: center;
+    display: flex;
+    
+}
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 200px;
+    color: rgb(0,0,0);
+    
+}
 #stopka {
     background-color: #f0f0f0;
 }
