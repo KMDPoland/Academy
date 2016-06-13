@@ -2,11 +2,67 @@
     #fundacja {
         height: 250px;
     }
+
+    #aktualnosci {
+        height: 250px;
+    }
+
+    #ludzie {
+        height: 250px;
+    }
+
+    #wydarzenia {
+        height: 250px;
+    }
+
+    #multimedia {
+        height: 250px;
+    }
+
+    #wspolpraca {
+        height: 250px;
+    }
+
+    #partnerzy {
+        height: 250px;
+    }
+
+    #stopka {
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     #fundacja {
         height: 400px;
+    }
+
+    #aktualnosci {
+        height: 400px;
+    }
+
+    #ludzie {
+        height: 400px;
+    }
+
+    #wydarzenia {
+        height: 400px;
+    }
+
+    #multimedia {
+        height: 400px;
+    }
+
+    #wspolpraca {
+        height: 400px;
+    }
+
+    #partnerzy {
+        height: 400px;
+    }
+
+    #stopka {
+        height: auto;
     }
 }
 
@@ -14,93 +70,110 @@
     #fundacja {
         height: 600px;
     }
+
+    #aktualnosci {
+        height: 600px;
+    }
+
+    #ludzie {
+        height: 600px;
+    }
+
+    #wydarzenia {
+        height: 600px;
+    }
+
+    #multimedia {
+        height: 600px;
+    }
+
+    #wspolpraca {
+        height: 600px;
+    }
+
+    #partnerzy {
+        height: 600px;
+    }
+
+    #stopka {
+        height: auto;
+    }
 }
 
 @media (min-width: 1200px) {
     #fundacja {
         height: 900px;
     }
+
+    #aktualnosci {
+        height: 900px;
+    }
+
+    #ludzie {
+        height: 900px;
+    }
+
+    #wydarzenia {
+        height: 900px;
+    }
+
+    #multimedia {
+        height: 900px;
+    }
+
+    #wspolpraca {
+        height: 900px;
+    }
+
+    #partnerzy {
+        height: 900px;
+    }
+
+    #stopka {
+        height: auto;
+    }
 }
-.nav{
-    background-color: #fff;
-    
-}
+
 #fundacja {
     background-image: url(logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    
-}
-
-@media (max-width: 767px) {
-    #aktualnosci {
-        height: 250px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    #aktualnosci {
-        height: 400px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    #aktualnosci {
-        height: 600px;
-    }
-}
-
-@media (min-width: 1200px) {
-    #aktualnosci {
-        height: 900px;
-    }
 }
 
 #aktualnosci {
-    background-image: url(logo.jpg);
+    background-image: url(spotkanie.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-div .row{
-    margin-top: 60px;
-}
-div .row h1{
-    font-size: 65px;
-    text-align: center;
-    color: #0873b9;
-}
+
 #ludzie {
+    background-color: RGB(39,170,226);
 }
 
 #wydarzenia {
+    background-image: url(zawodnik.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #multimedia {
+    background-color: #FFFFFF;
 }
 
 #wspolpraca {
+    background-image: url(szpada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #partnerzy {
-   
+    background-color: RGB(172,210,89);
 }
-.jumbotron{
-    height: 600px;
-    background-size: cover;
-    background-image: url("zawodnik.jpg");
-    align-items: center;
-    display: flex;
-    
-}
-.jumbotron h1 {
-    font-size: 60px;
-    font-weight: 600;
-    margin-top: 200px;
-    color: rgb(0,0,0);
-    
-}
+
 #stopka {
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
 }
