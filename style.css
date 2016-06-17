@@ -1,179 +1,215 @@
 @media (max-width: 767px) {
     #fundacja {
+        background-image: url(logo_xs.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 250px;
     }
 
     #aktualnosci {
+        background-image: url(spotkanie_xs.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 250px;
     }
 
     #ludzie {
+        background-color: RGB(39,170,226);
         height: 250px;
     }
 
     #wydarzenia {
+        background-image: url(zawodnik_xs.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 250px;
     }
 
     #multimedia {
+        background-color: #FFFFFF;
         height: 250px;
     }
 
     #wspolpraca {
+        background-image: url(szpada_xs.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 250px;
     }
 
     #partnerzy {
+        background-color: RGB(172,210,89);
         height: 250px;
     }
 
     #stopka {
+        background-color: #FFFFFF;
         height: auto;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     #fundacja {
+        background-image: url(logo_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 400px;
     }
 
     #aktualnosci {
+        background-image: url(spotkanie_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 400px;
     }
 
     #ludzie {
+        background-color: RGB(39,170,226);
         height: 400px;
     }
 
     #wydarzenia {
+        background-image: url(zawodnik_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 400px;
     }
 
     #multimedia {
+        background-color: #FFFFFF;
         height: 400px;
     }
 
     #wspolpraca {
+        background-image: url(szpada_sm.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 400px;
     }
 
     #partnerzy {
+        background-color: RGB(172,210,89);
         height: 400px;
     }
 
     #stopka {
+        background-color: #FFFFFF;
         height: auto;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #fundacja {
+        background-image: url(logo_md.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 600px;
     }
 
     #aktualnosci {
+        background-image: url(spotkanie_md.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 600px;
     }
 
     #ludzie {
+        background-color: RGB(39,170,226);
         height: 600px;
     }
 
     #wydarzenia {
+        background-image: url(zawodnik_md.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 600px;
     }
 
     #multimedia {
+        background-color: #FFFFFF;
         height: 600px;
     }
 
     #wspolpraca {
+        background-image: url(szpada_md.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 600px;
     }
 
     #partnerzy {
+        background-color: RGB(172,210,89);
         height: 600px;
     }
 
     #stopka {
+        background-color: #FFFFFF;
         height: auto;
     }
 }
 
 @media (min-width: 1200px) {
     #fundacja {
+        background-image: url(logo_lg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 900px;
     }
 
     #aktualnosci {
+        background-image: url(spotkanie_lg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 900px;
     }
 
     #ludzie {
+        background-color: RGB(39,170,226);
         height: 900px;
     }
 
     #wydarzenia {
+        background-image: url(zawodnik_lg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 900px;
     }
 
     #multimedia {
+        background-color: #FFFFFF;
         height: 900px;
     }
 
     #wspolpraca {
+        background-image: url(szpada_lg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
         height: 900px;
     }
 
     #partnerzy {
+        background-color: RGB(172,210,89);
         height: 900px;
     }
 
     #stopka {
+        background-color: #FFFFFF;
         height: auto;
     }
-}
-
-#fundacja {
-    background-image: url(logo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#aktualnosci {
-    background-image: url(spotkanie.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#ludzie {
-    background-color: RGB(39,170,226);
-}
-
-#wydarzenia {
-    background-image: url(zawodnik.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#multimedia {
-    background-color: #FFFFFF;
-}
-
-#wspolpraca {
-    background-image: url(szpada.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-#partnerzy {
-    background-color: RGB(172,210,89);
-}
-
-#stopka {
-    background-color: #FFFFFF;
 }
