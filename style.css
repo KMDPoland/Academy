@@ -16,7 +16,8 @@
     }
 
     #wydarzenia {
-        background-color: #FFFFFF; //RGB(39,170,226);
+        background-color: #FFFFFF;
+        //RGB(39,170,226);
         height: auto;
     }
 
@@ -42,7 +43,8 @@
     }
 
     #partnerzy {
-        background-color: #FFFFFF; //RGB(172,210,89);
+        background-color: #FFFFFF;
+        //RGB(172,210,89);
         height: auto;
     }
 
@@ -54,6 +56,10 @@
     #film {
         width: 560px;
         height: 315px;
+    }
+
+    #post1, #post2, #post3, #post4 {
+        text-align: center;
     }
 }
 
@@ -75,7 +81,8 @@
     }
 
     #wydarzenia {
-        background-color: #FFFFFF; //RGB(39,170,226);
+        background-color: #FFFFFF;
+        //RGB(39,170,226);
         height: auto;
     }
 
@@ -101,7 +108,8 @@
     }
 
     #partnerzy {
-        background-color: #FFFFFF; //RGB(172,210,89);
+        background-color: #FFFFFF;
+        //RGB(172,210,89);
         height: auto;
     }
 
@@ -113,6 +121,10 @@
     #film {
         width: 672px;
         height: 378px;
+    }
+
+    #post1, #post2, #post3, #post4 {
+        text-align: center;
     }
 }
 
@@ -134,7 +146,8 @@
     }
 
     #wydarzenia {
-        background-color: #FFFFFF; //RGB(39,170,226);
+        background-color: #FFFFFF;
+        //RGB(39,170,226);
         height: auto;
     }
 
@@ -160,7 +173,8 @@
     }
 
     #partnerzy {
-        background-color: #FFFFFF; //RGB(172,210,89);
+        background-color: #FFFFFF;
+        //RGB(172,210,89);
         height: auto;
     }
 
@@ -172,6 +186,10 @@
     #film {
         width: 896px;
         height: 504px;
+    }
+
+    #post1, #post2, #post3, #post4 {
+        text-align: center;
     }
 }
 
@@ -193,7 +211,8 @@
     }
 
     #wydarzenia {
-        background-color: #FFFFFF; //RGB(39,170,226);
+        background-color: #FFFFFF;
+        //RGB(39,170,226);
         height: auto;
     }
 
@@ -219,7 +238,8 @@
     }
 
     #partnerzy {
-        background-color: #FFFFFF; //RGB(172,210,89);
+        background-color: #FFFFFF;
+        //RGB(172,210,89);
         height: auto;
     }
 
@@ -231,5 +251,13 @@
     #film {
         width: 1120px;
         height: 630px;
+    }
+
+    #post1, #post3 {
+        text-align: center;
+    }
+
+    #post2, #post4 {
+        text-align: center;
     }
 }
