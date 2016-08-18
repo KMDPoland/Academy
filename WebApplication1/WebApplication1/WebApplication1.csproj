@@ -69,9 +69,11 @@
     <Content Include="Aktualnosci.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Formularz.aspx" />
+    <Content Include="Multimedia.ascx" />
     <Content Include="Naglowek.ascx" />
     <Content Include="packages.config" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="Partnerzy.ascx" />
     <Content Include="Site1.Master" />
     <Content Include="Stopka.ascx" />
     <Content Include="Wydarzenia.ascx" />
@@ -111,12 +113,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Multimedia.ascx.cs">
+      <DependentUpon>Multimedia.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Multimedia.ascx.designer.cs">
+      <DependentUpon>Multimedia.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Naglowek.ascx.cs">
       <DependentUpon>Naglowek.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Naglowek.ascx.designer.cs">
       <DependentUpon>Naglowek.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Partnerzy.ascx.cs">
+      <DependentUpon>Partnerzy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Partnerzy.ascx.designer.cs">
+      <DependentUpon>Partnerzy.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">

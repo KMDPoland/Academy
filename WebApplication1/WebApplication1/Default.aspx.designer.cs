@@ -29,5 +29,23 @@ namespace WebApplication1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::WebApplication1.Wydarzenia Wydarzenia1;
+        
+        /// <summary>
+        /// Multimedia1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.Multimedia Multimedia1;
+        
+        /// <summary>
+        /// Partnerzy1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.Partnerzy Partnerzy1;
     }
 }
