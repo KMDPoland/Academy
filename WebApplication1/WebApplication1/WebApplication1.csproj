@@ -77,6 +77,7 @@
     <Content Include="Partnerzy.ascx" />
     <Content Include="Site1.Master" />
     <Content Include="Stopka.ascx" />
+    <Content Include="Wspolpraca.ascx" />
     <Content Include="Wydarzenia.ascx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -156,6 +157,13 @@
     </Compile>
     <Compile Include="Stopka.ascx.designer.cs">
       <DependentUpon>Stopka.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Wspolpraca.ascx.cs">
+      <DependentUpon>Wspolpraca.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wspolpraca.ascx.designer.cs">
+      <DependentUpon>Wspolpraca.ascx</DependentUpon>
     </Compile>
     <Compile Include="Wydarzenia.ascx.cs">
       <DependentUpon>Wydarzenia.ascx</DependentUpon>
