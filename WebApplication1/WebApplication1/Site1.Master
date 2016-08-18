@@ -1,5 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
-
+<%@ Register TagPrefix="kmd" TagName="Naglowek" Src="~/Naglowek.ascx" %>
+<%@ Register TagPrefix="kmd" TagName="Stopka" Src="~/Stopka.ascx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -15,9 +16,12 @@
 <body>
 
     <div>
+        <kmd:Naglowek ID="Naglowek1" runat="server" />
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
+
+        <kmd:Stopka ID="Stopka1" runat="server" />
     </div>
 
 </body>

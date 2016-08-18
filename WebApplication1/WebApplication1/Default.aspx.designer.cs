@@ -11,5 +11,23 @@ namespace WebApplication1 {
     
     
     public partial class Default {
+        
+        /// <summary>
+        /// Aktualnosci1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.Aktualnosci Aktualnosci1;
+        
+        /// <summary>
+        /// Wydarzenia1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.Wydarzenia Wydarzenia1;
     }
 }
