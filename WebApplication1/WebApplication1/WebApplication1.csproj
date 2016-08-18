@@ -105,8 +105,10 @@
     <Content Include="packages.config" />
     <Content Include="ClassDiagram1.cd" />
     <Content Include="Partnerzy.ascx" />
+    <Content Include="scripts\script.js" />
     <Content Include="Site1.Master" />
     <Content Include="Stopka.ascx" />
+    <Content Include="styles\style.css" />
     <Content Include="Wspolpraca.ascx" />
     <Content Include="Wydarzenia.ascx" />
     <None Include="Web.Debug.config">
