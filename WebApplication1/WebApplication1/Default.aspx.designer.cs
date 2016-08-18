@@ -31,6 +31,15 @@ namespace WebApplication1 {
         protected global::WebApplication1.Wydarzenia Wydarzenia1;
         
         /// <summary>
+        /// Ludzie1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.Ludzie Ludzie1;
+        
+        /// <summary>
         /// Multimedia1 control.
         /// </summary>
         /// <remarks>

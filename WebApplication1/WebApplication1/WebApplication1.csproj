@@ -70,6 +70,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Formularz.aspx" />
     <Content Include="Multimedia.ascx" />
+    <Content Include="Ludzie.ascx" />
     <Content Include="Naglowek.ascx" />
     <Content Include="packages.config" />
     <Content Include="ClassDiagram1.cd" />
@@ -119,6 +120,13 @@
     </Compile>
     <Compile Include="Multimedia.ascx.designer.cs">
       <DependentUpon>Multimedia.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Ludzie.ascx.cs">
+      <DependentUpon>Ludzie.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ludzie.ascx.designer.cs">
+      <DependentUpon>Ludzie.ascx</DependentUpon>
     </Compile>
     <Compile Include="Naglowek.ascx.cs">
       <DependentUpon>Naglowek.ascx</DependentUpon>
