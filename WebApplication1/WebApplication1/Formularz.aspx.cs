@@ -18,6 +18,25 @@ namespace WebApplication1
             Label5.Text = "Twoja miejscowość: " + TextBox5.Text;
             Label6.Text = "Twój kod pocztowy: " + TextBox6.Text;
             Label7.Text = "Twoja data: " + TextBox7.Text;
+
+            using (var dbcontext = new formularzeEntities())
+            {
+                dbcontext.Forms.Add(new Forms
+                {
+                    Imie = TextBox1.Text,
+                    Nazwisko= "tymczasowe",
+                    Email = TextBox2.Text,
+                    Telefon = TextBox3.Text,
+                    Kraj = TextBox4.Text,
+                    Miejscowosc = TextBox5.Text,
+                    Kod = TextBox6.Text,
+                    Data = DateTime.Parse(TextBox7.Text)
+
+                });
+
+                dbcontext.SaveChanges();
+
+            }
         }
     }
 }

@@ -43,11 +43,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.EntityDataSource, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.EntityDataSource.6.0.0\lib\net40\Microsoft.AspNet.EntityDataSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -69,6 +83,16 @@
     <Content Include="Aktualnosci.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Formularz.aspx" />
+    <Content Include="Formularze.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Formularze.edmx</DependentUpon>
+      <LastGenOutput>Formularze.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Formularze.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Formularze.edmx</DependentUpon>
+      <LastGenOutput>Formularze.cs</LastGenOutput>
+    </Content>
     <Content Include="img\logo.jpg" />
     <Content Include="img\logo_adboard.png" />
     <Content Include="img\logo_ams.jpg" />
@@ -111,6 +135,13 @@
     <Content Include="styles\style.css" />
     <Content Include="Wspolpraca.ascx" />
     <Content Include="Wydarzenia.ascx" />
+    <EntityDeploy Include="Formularze.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Formularze.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Formularze.edmx.diagram">
+      <DependentUpon>Formularze.edmx</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,12 +168,30 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Forms.cs">
+      <DependentUpon>Formularze.tt</DependentUpon>
+    </Compile>
     <Compile Include="Formularz.aspx.cs">
       <DependentUpon>Formularz.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Formularz.aspx.designer.cs">
       <DependentUpon>Formularz.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Formularze.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Formularze.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Formularze.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Formularze.edmx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -208,6 +257,9 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
